@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated portrait of an elderly professor wearing glasses">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#16243a"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </linearGradient>
+    <linearGradient id="robe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#24334f"/>
+      <stop offset="100%" stop-color="#151f33"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#e2e7ef"/>
+      <stop offset="100%" stop-color="#a8b2c0"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="38%" r="72%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".45"/>
+    </radialGradient>
+    <clipPath id="frameL"><circle cx="166" cy="180" r="27"/></clipPath>
+    <clipPath id="frameR"><circle cx="234" cy="180" r="27"/></clipPath>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- shoulders / academic robe -->
+  <path d="M46 400c8-78 68-116 154-116s146 38 154 116z" fill="url(#robe)"/>
+  <!-- robe collar -->
+  <path d="M158 288l42 46 42-46 22 10-52 62h-24l-52-62z" fill="#0f1726"/>
+  <path d="M158 288l42 46-14 12-40-48z" fill="#2d3e5e"/>
+  <path d="M242 288l-42 46 14 12 40-48z" fill="#2d3e5e"/>
+  <!-- stole accent -->
+  <path d="M186 346h28l6 54h-40z" fill="#2f6fbf"/>
+
+  <!-- neck -->
+  <path d="M172 232h56v52c0 14-12 22-28 22s-28-8-28-22z" fill="#cf9d76"/>
+  <path d="M172 232h56v20c-10 10-46 10-56 0z" fill="#b8875f"/>
+
+  <!-- ears -->
+  <ellipse cx="124" cy="182" rx="13" ry="19" fill="#dfae86"/>
+  <ellipse cx="276" cy="182" rx="13" ry="19" fill="#dfae86"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="172" rx="78" ry="94" fill="#e6b992"/>
+
+  <!-- hair: back volume, then front sweep -->
+  <path d="M122 176c-6-72 32-110 78-110s84 38 78 110c-4-12-6-30-14-44-10-18-28-24-52-22-30 2-56 6-70 22-12 14-17 30-20 44z" fill="url(#hair)"/>
+  <path d="M120 150c8-14 22-24 38-28-14 12-24 24-30 40zM280 150c-8-14-22-24-38-28 14 12 24 24 30 40z" fill="#eef1f6" opacity=".7"/>
+  <!-- sideburns -->
+  <path d="M124 170c-4 18-3 34 2 48 6-14 6-32 4-48zM276 170c4 18 3 34-2 48-6-14-6-32-4-48z" fill="#b6bfcc"/>
+
+  <!-- forehead lines -->
+  <g stroke="#c99b74" stroke-width="3" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M164 134q36-9 72 0"/>
+    <path d="M170 148q30-7 60 0"/>
+  </g>
+
+  <!-- eyebrows -->
+  <g fill="#cdd4de">
+    <path d="M142 158q24-13 46-4l-2 8q-20-8-42 3z"/>
+    <path d="M258 158q-24-13-46-4l2 8q20-8 42 3z"/>
+  </g>
+
+  <!-- eyes -->
+  <g fill="#33445c">
+    <ellipse cx="166" cy="181" rx="6.5" ry="7"/>
+    <ellipse cx="234" cy="181" rx="6.5" ry="7"/>
+  </g>
+  <g stroke="#b98c66" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M152 172q14-8 28 0"/><path d="M220 172q14-8 28 0"/>
+    <path d="M132 190l10 4M132 198l9 1"/>
+    <path d="M268 190l-10 4M268 198l-9 1"/>
+  </g>
+
+  <!-- glasses -->
+  <g fill="#8fbfff" opacity=".1">
+    <circle cx="166" cy="180" r="27"/><circle cx="234" cy="180" r="27"/>
+  </g>
+  <g stroke="#4d9bff" stroke-width="5" fill="none" stroke-linecap="round">
+    <circle cx="166" cy="180" r="27"/>
+    <circle cx="234" cy="180" r="27"/>
+    <path d="M193 178q7-6 14 0"/>
+    <path d="M139 175l-15-4M261 175l15-4"/>
+  </g>
+  <g clip-path="url(#frameL)" opacity=".35"><path d="M144 206l40-46 12 0-40 46z" fill="#cfe4ff"/></g>
+  <g clip-path="url(#frameR)" opacity=".35"><path d="M212 206l40-46 12 0-40 46z" fill="#cfe4ff"/></g>
+
+  <!-- nose -->
+  <path d="M200 182v28q0 8 10 10" stroke="#c2906a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- nasolabial folds -->
+  <g stroke="#c9946d" stroke-width="3.5" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M178 216q-8 18 2 30"/>
+    <path d="M222 216q8 18-2 30"/>
+  </g>
+
+  <!-- mouth -->
+  <path d="M180 240q20 14 40 0" stroke="#9e5f4a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M196 262q4 4 8 0" stroke="#c9946d" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
+
+  <rect width="400" height="400" fill="url(#vig)"/>
+</svg>
