@@ -13,7 +13,7 @@ const profile = {
 
   // รูปโปรไฟล์: วางไฟล์รูปไว้ในโฟลเดอร์ assets/ แล้วใส่ชื่อไฟล์ เช่น "assets/profile.jpg"
   // ถ้าเว้นว่างไว้ จะแสดงเป็นตัวอักษรย่อแทน
-  photo: "assets/portrait.svg",
+  photo: "assets/portrait.svg?v=2",
 
   // ── เกี่ยวกับฉัน ───────────────────────────────────────────
   about: [
