@@ -5,15 +5,15 @@
 
 const profile = {
   // ── ข้อมูลหลัก ─────────────────────────────────────────────
-  name:    "Lakkana Worasinchai",   // ชื่อหลัก แสดงตัวใหญ่
-  nameAlt: "ลักคณา วรศิลป์ชัย",       // บรรทัดรอง (เว้นว่าง "" ได้ถ้าไม่ต้องการ)
+  name:    "Sirirat Suttagone",   // ชื่อหลัก แสดงตัวใหญ่
+  nameAlt: "ศิริรัตน์ สุทธากรณ์",       // บรรทัดรอง (เว้นว่าง "" ได้ถ้าไม่ต้องการ)
   role: "Web Developer",
   tagline: "I build digital work that is practical, well-crafted, and accessible to everyone.",
   location: "Bangkok, Thailand",
 
   // รูปโปรไฟล์: วางไฟล์รูปไว้ในโฟลเดอร์ assets/ แล้วใส่ชื่อไฟล์ เช่น "assets/profile.jpg"
   // ถ้าเว้นว่างไว้ จะแสดงเป็นตัวอักษรย่อแทน
-  photo: "assets/professor.svg",
+  photo: "assets/portrait.svg",
 
   // ── เกี่ยวกับฉัน ───────────────────────────────────────────
   about: [

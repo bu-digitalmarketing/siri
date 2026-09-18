@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated portrait of a young woman with long dark hair">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#182741"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#403757"/>
+      <stop offset="55%" stop-color="#262035"/>
+      <stop offset="100%" stop-color="#181528"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#24365a"/>
+      <stop offset="100%" stop-color="#14203a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#f5cfb0"/>
+      <stop offset="100%" stop-color="#e6b691"/>
+    </linearGradient>
+    <radialGradient id="blush" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#e08a80" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#e08a80" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="36%" r="72%">
+      <stop offset="58%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".45"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- ผมด้านหลัง ยาวสยายลงมา -->
+  <path d="M200 44c-60 0-96 48-92 114 2 40-6 104-14 242h52c-8-92-4-148 0-178 20 20 88 20 108 0 4 30 8 86 0 178h52c-8-138-16-202-14-242 4-66-32-114-92-114z" fill="url(#hair)"/>
+  <path d="M154 72q46-18 92 12-44-20-92-12z" fill="#5d5280" opacity=".45"/>
+
+  <!-- คอ -->
+  <path d="M176 224h48v56c0 14-11 22-24 22s-24-8-24-22z" fill="#e0b08b"/>
+  <path d="M176 224h48v20c-9 10-39 10-48 0z" fill="#c7926c"/>
+
+  <!-- เสื้อ -->
+  <path d="M58 400c10-74 68-110 142-110s132 36 142 110z" fill="url(#top)"/>
+  <path d="M168 292l32 40 32-40 16 8-40 56h-16l-40-56z" fill="#0e1830"/>
+  <path d="M186 356h28l5 44h-38z" fill="#3f7fd0" opacity=".85"/>
+
+  <!-- หู + ต่างหู -->
+  <ellipse cx="136" cy="180" rx="11" ry="16" fill="#eaba93"/>
+  <ellipse cx="264" cy="180" rx="11" ry="16" fill="#eaba93"/>
+  <circle cx="136" cy="200" r="4.5" fill="#7fd4ff"/>
+  <circle cx="264" cy="200" r="4.5" fill="#7fd4ff"/>
+
+  <!-- ใบหน้า -->
+  <ellipse cx="200" cy="172" rx="64" ry="78" fill="url(#skin)"/>
+
+  <!-- ผมด้านหน้า: แสกข้าง ขอบเรียบ ไม่บังหน้าผากมาก -->
+  <path d="M200 44c-60 0-96 48-92 114 3-30 12-52 26-64 28 28 90 34 128 6 10 12 16 30 18 52 4-66-20-108-80-108z" fill="url(#hair)"/>
+  <!-- ปอยผมที่ตกลงมาหน้าไหล่ -->
+  <path d="M112 204c-4 52-6 104-8 156h26c-4-54-8-106-6-156z" fill="#1e1a30" opacity=".85"/>
+  <path d="M288 204c4 52 6 104 8 156h-26c4-54 8-106 6-156z" fill="#1e1a30" opacity=".85"/>
+
+  <!-- แก้ม -->
+  <ellipse cx="162" cy="198" rx="20" ry="13" fill="url(#blush)"/>
+  <ellipse cx="238" cy="198" rx="20" ry="13" fill="url(#blush)"/>
+
+  <!-- คิ้ว: เส้นโค้งบาง ไม่หักมุม -->
+  <g stroke="#3d3556" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M158 157q20-10 37-3"/>
+    <path d="M242 157q-20-10-37-3"/>
+  </g>
+
+  <!-- ตา -->
+  <g>
+    <path d="M154 177q21-15 40 0-21 13-40 0z" fill="#fff"/>
+    <path d="M246 177q-21-15-40 0 21 13 40 0z" fill="#fff"/>
+    <circle cx="174" cy="177" r="7.5" fill="#43352c"/>
+    <circle cx="226" cy="177" r="7.5" fill="#43352c"/>
+    <circle cx="176.4" cy="174.4" r="2.5" fill="#fff"/>
+    <circle cx="228.4" cy="174.4" r="2.5" fill="#fff"/>
+  </g>
+  <g stroke="#3d3556" stroke-width="2.6" stroke-linecap="round" fill="none">
+    <path d="M154 175q21-14 40 0"/>
+    <path d="M246 175q-21-14-40 0"/>
+    <path d="M155 171l-6-4M245 171l6-4"/>
+  </g>
+
+  <!-- จมูก: สั้น เบา -->
+  <path d="M200 188v14q0 5 6 6" stroke="#d3a17c" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- ปาก: ยิ้มนุ่ม ๆ -->
+  <path d="M182 227q18 6 36 0-14 16-36 0z" fill="#ca6a63"/>
+  <path d="M182 227q18-7 36 0" stroke="#b3564f" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <rect width="400" height="400" fill="url(#vig)"/>
+</svg>
